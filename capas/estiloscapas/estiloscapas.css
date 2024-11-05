@@ -856,7 +856,6 @@ input[type="submit"]:hover{background-color: blue;}
       top: 90%;
       left: 30%;
     }
-}
 
 .carrito{
   display: none;
@@ -910,4 +909,5 @@ input[type="submit"]:hover{background-color: blue;}
   width: 70%;
   height: 50px;
   font-size: 110%;
+}
 }
