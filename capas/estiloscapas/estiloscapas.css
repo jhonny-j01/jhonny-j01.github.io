@@ -683,7 +683,7 @@ input[type="submit"]:hover{background-color: blue;}
         background-color: rgb(182, 244, 247);
         position: absolute;
         right: 1%;
-        top: 13%;
+        top: 12%;
         width: 15%;
         height: 4%;
         border-radius: 10px;
@@ -692,11 +692,11 @@ input[type="submit"]:hover{background-color: blue;}
 
       .nav{
         position: relative;
-        top: -30px;
+        top: -55px;
         display: inline;
         background-color: rgb(29, 101, 255);
         padding: 2px 5px 5px 5px;
-        margin-left: 5px;
+        margin-left: 2px;
         margin-top: 5px;
         box-shadow:2px 2px 2px black ;
         float: left;
@@ -706,6 +706,8 @@ input[type="submit"]:hover{background-color: blue;}
         font-family:monospace ;
         border-radius: 5%;
         text-decoration: none;
+        width: 80px;
+        height: 25x;
       }
 
       .lugarProductos{
@@ -858,4 +860,54 @@ input[type="submit"]:hover{background-color: blue;}
 
 .carrito{
   display: none;
+}
+
+.confirmaCompra{
+  position: absolute;
+  background-color: #40005e;
+  color: white;
+  padding: 5%;
+  z-index: 11;
+  width: 90%;
+  height: 70%;
+  top: 20%;
+  left: 0%;
+
+}
+
+.confirmaCompra h2{
+  position: relative;
+  left:25%;
+  top: -20pxpx;
+  font-size: 30px;
+  left: 50px;
+ }
+
+ .envio h2{
+  position: relative;
+  left: -20px;
+ }
+
+ .envio input{
+  display: flex;
+  margin-bottom:25px ;
+  width: 90%;
+  height:30px
+  
+}
+
+.CF{
+  background-color: #1696ff;
+  color: white;
+  padding: 2%;
+  border-radius: 7px;
+  border: #ffffff;
+  box-shadow: 2px 2px 2px black;
+  position: relative;
+  left: 50%;
+  margin-top: 50px;
+  transform: translate(-50%);
+  width: 70%;
+  height: 50px;
+  font-size: 110%;
 }

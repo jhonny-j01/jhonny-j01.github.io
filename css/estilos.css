@@ -366,14 +366,14 @@ position: absolute;
 
 .t4{
   position: absolute;
+  left:700px ;
   top: 800px;
-  left: 700px;
 }
 
 .img5{
   position: absolute;
   top:950px;
-  left: 450px;
+  left: 100px;
   width: 200px;
 
 }
@@ -381,8 +381,22 @@ position: absolute;
 .t5{
   position: absolute;
   top: 1220px;
-  left: 400px;
 }
+
+.img6{
+  position: absolute;
+  top:950px;
+  left: 750px;
+  width: 200px;
+}
+
+.t6{
+  position: absolute;
+  top: 1220px;
+  left: 770px;
+
+}
+
 footer{
   position: absolute;
   top: 2000px;
@@ -535,7 +549,7 @@ footer h4:hover{
        position: absolute;
        left: 0%;
        top:800px;
-       height: 1900px;
+       height: 2050px;
        padding: 50px;
        border-radius: 0%;
        margin: 0%;
@@ -612,6 +626,21 @@ footer h4:hover{
       left: 70px;
     }
 
+  .img6{  
+    position: absolute;
+    top:1850px;
+    left: 100px;
+    width: 200px;
+  }
+  
+  .t6{
+    position: absolute;
+    top: 2050px;
+    left: 110px;
+  
+  }
+  
+
     footer{
       position: absolute;
       top: 3000px;
@@ -656,3 +685,4 @@ footer h4:hover{
       left: 30%;
     }
 }
+
